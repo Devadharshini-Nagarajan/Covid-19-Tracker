@@ -1,6 +1,9 @@
 # React COVID-19 Tracker
 
-This is a COVID-19 tracker application created using React. It provides real-time data on the total number of cases, recovered cases, and deaths worldwide. The app includes a dropdown menu to select a specific country, allowing users to view country-specific data and graphs. You can use the app online by visiting [COVID-19 TRACKER](<[https://webofdeva-covid19tracker.netlify.app/)>).
+This is a COVID-19 tracker application created using React. It provides real-time data on the total number of cases, recovered cases, and deaths worldwide. The app includes a dropdown menu to select a specific country, allowing users to view country-specific data and graphs. You can run the app online by visiting [Covid-19 Tracker](https://webofdeva-covid19tracker.netlify.app).
+
+<img width="1439" alt="image" src="https://github.com/Devadharshini-Nagarajan/Covid-19-Tracker/assets/113491692/409c3e99-b5b0-43d8-ac37-70585af89382">
+
 
 ## Features
 
