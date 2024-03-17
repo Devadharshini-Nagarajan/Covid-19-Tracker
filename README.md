@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React COVID-19 Tracker
 
-## Available Scripts
+This is a COVID-19 tracker application created using React. It provides real-time data on the total number of cases, recovered cases, and deaths worldwide. The app includes a dropdown menu to select a specific country, allowing users to view country-specific data and graphs. You can use the app online by visiting [COVID-19 TRACKER](<[https://webofdeva-covid19tracker.netlify.app/)>).
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Global Statistics:** Displays total number of COVID-19 cases, recovered cases, and deaths worldwide.
+- **Country Selection:** Allows users to select a specific country from the dropdown menu to view country-specific statistics.
+- **World Map:** Utilizes React Leaflet to display a world map with markers indicating COVID-19 cases in different countries.
+- **Line Graph:** Uses React Chart.js to visualize worldwide new cases, deaths, and recoveries over time using a line graph.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- **React:** A JavaScript library for building user interfaces.
+- **React Leaflet:** A React wrapper for Leaflet, a leading open-source JavaScript library for interactive maps.
+- **React Chart.js:** A React wrapper for Chart.js, a JavaScript library for creating charts and graphs.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Global Statistics:** View total number of cases, recovered cases, and deaths worldwide.
+- **Country Selection:** Choose a specific country from the dropdown menu to view country-specific statistics and graphs.
+- **World Map:** Explore the world map to see COVID-19 cases in different countries.
+- **Line Graph:** Visualize worldwide new cases, deaths, and recoveries over time using the line graph.
 
-### `npm run build`
+## Project setup
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Compiles and hot-reloads for development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run start
+```
 
-### `npm run eject`
+### Compiles and minifies for production
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
